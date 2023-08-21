@@ -25,17 +25,27 @@
     // }
     // vòng lặp for
 
-    $n = 10;
-    $sum = 0;
 
+    // for($i = 1; $i <= $n; $i++) {
+    //     // tổng tất cả số chẵn
+    //     if ($i % 2 == 0) {
+    //         $sum = $sum + $i;
+    //     }
+    //     // echo $i. "<br />";
+    // }
+    // tính tổng tất cả các số chẵn
+    function total_odd($n) {
+    $sum = 0;
     for($i = 1; $i <= $n; $i++) {
         // tổng tất cả số chẵn
-        if ($i % 2 == 0) {
+         if ($i % 2 == 0) {
             $sum = $sum + $i;
         }
         // echo $i. "<br />";
     }
-    echo $sum;
+    return $sum;
+    }
+    echo total_odd(10);
 
     ?>
 </body>
