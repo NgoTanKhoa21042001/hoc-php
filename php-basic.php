@@ -11,8 +11,8 @@
     <?php
     // dòng này sẽ code php
     $fullname = "Ngo Tan Khoa ";
-    echo $fullname;
-    echo "Xin chào";
+    echo "Xin chào {$fullname}";
+    // echo "Xin chào ".$fullname
     ?>
 </body>
 </html>
